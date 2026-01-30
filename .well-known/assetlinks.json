@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.phalombettc.twa",
+      "sha256_cert_fingerprints": [
+        "FC:23:4F:07:78:94:B1:2C:CA:90:A4:31:D1:6D:11:57:8E:E9:B0:71:95:17:3C:12:32:D6:0E:31:F8:85:72:69"
+      ]
+    }
+  }
+]
