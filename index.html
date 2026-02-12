@@ -2,10 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Phalombe Teacher Training College - Student Portal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #F4C400;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 50px 40px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+            width: 90%;
+            max-width: 600px;
+        }
+
+        .college-name {
+            font-size: 26px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .motto {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .welcome-text {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #444;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 35px;
+            font-size: 16px;
+            text-decoration: none;
+            background-color: #333;
+            color: #ffffff;
+            border-radius: 6px;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #000;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 14px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            .college-name {
+                font-size: 20px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <a href="https://pettc.gt.tc">TEST</a>
+
+    <div class="container">
+        <div class="college-name">
+            Phalombe Teacher Training College
+        </div>
+
+        <div class="motto">
+            "Promoting Excellence in Teacher Education"
+        </div>
+
+        <div class="welcome-text">
+            Welcome to the Student Portal.<br>
+            Click the button below to proceed.
+        </div>
+
+        <a href="https://pettc.gt.tc" class="btn">
+            Proceed to Student Portal
+        </a>
+    </div>
+
+    <footer>
+        &copy; PETTC. All Rights Reserved.
+    </footer>
+
 </body>
 </html>
